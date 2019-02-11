@@ -1,0 +1,21 @@
+{
+  "name": "alexmelifluo",
+  "version": "1.0.0",
+  "description": "Portfolio page",
+  "main": "scss/main.scss",
+  "scripts": {
+    "css-build": "sass --no-source-map scss/main.scss css/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexmelifluo/alexmelifluo.github.io.git"
+  },
+  "author": "Alex",
+  "license": "MIT",
+  "homepage": "https://alexmelifluo.github.io",
+  "devDependencies": {
+    "sass": "^1.17.0"
+  }
+}
